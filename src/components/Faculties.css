@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+
+/* body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#FFF;
+
+} */
+
+.slide-content{
+    margin: 0 40px;
+}
+
+.card{
+    width: 320px;
+    border-radius: 25px;
+    background-color: white;
+    
+}
+
+.image-content,
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.image-content{
+    position: relative;
+    row-gap: 5px;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #d4681c;
+    border-radius: 25px 25px 0 25px;
+}
+
+
+
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #d4681c;
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #FFF;
+}
+
+.card-image{
+    position: relative;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background: #FFF;
+    padding: 3px;
+    
+
+}
+
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #d4681c;
+
+}
+.name{
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    
+    align-self: center;
+    
+    
+    
+}
+
+.description{
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+}
+
+.team-container{
+    width: 75vw;
+    height: 50vh;
+    background-color: #F7C59F;
+    border-radius: 5%;
+    
+
+}
+
+
+
