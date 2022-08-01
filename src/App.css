@@ -19,11 +19,11 @@
 }
 
 .App-header {
-  background-color: white;
+  background-color: hsl(0, 0%, 98%);
   min-height: 100vh;
   
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+ 
   color: rgb(48, 46, 46);
 }
 
@@ -53,3 +53,4 @@
 .about-content{
   font-size: 20px;
 }
+

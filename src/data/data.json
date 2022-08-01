@@ -3,7 +3,23 @@
         {
             "order" : "1",
             "name" : "About Us",
-            "content" : "We are professionals from IT industry, having vast experience in development and training of JAVA and various UI related technologies. We have been training and placing students over a decade now in various training institutes, we are the pioneers who introduced different training models which not only focus on theory but on practical implementations. Our training methodologies include best industry standards and practices, which suits freshers(zero-experience) to all(leads). We focus on providing quality training on cutting edge technologies that are used to build softwares in the current world."
+            "content" : [
+                {
+                    "list" : "We are professionals from IT industry, having vast experience in development and training of JAVA and various UI related technologies."
+                },
+                {
+                    "list" : "We have been training and placing students over a decade now in various training institutes, we are the pioneers who introduced different training models which not only focus on theory but on practical implementations."
+                },
+                {
+                    "list" : "Our training methodologies include best industry standards and practices, which suits freshers(zero-experience) to all(leads)."
+                },
+                {
+                    "list" : "We focus on providing quality training on cutting edge technologies that are used to build softwares in the current world."
+                },
+                {
+                    "list" : "Well skilled industry trainers, with development knowledge to bridge the gap between learning and development."
+                }
+            ]
             
         },
             
