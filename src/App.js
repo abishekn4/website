@@ -24,7 +24,7 @@ const App = () => {
     <div className='App'>
       <div className='App-header'>
       <Router>
-    <Navbar className='nav-container' variant="dark" bg='dark' expand="lg">
+    <Navbar className='nav-container' variant="light"   expand="lg" fixed="top">
       <Container>
         <Navbar.Brand href="#home"><img src="https://raw.githubusercontent.com/X-workzDev01/xworkzwebsite/master/src/main/webapp/assets/images/Logo.png" width="100" height="50" alt='Xworkz'/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -41,7 +41,7 @@ const App = () => {
    
     
     <Route path="/about" element={<About value={JsonData}/>}/>
-    <Route path="/home" element={<Team value={JsonData.Components[1]}/>}/>
+    
     
   </Routes>
 

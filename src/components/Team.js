@@ -13,7 +13,7 @@ export const Team = (props) => {
 
         <div className='team'>
             <div className='team-title' >
-                <h1 >Our Team</h1>
+                <h2>Our <span>Team</span></h2>
 
                 <Swiper
                     // install Swiper modules
@@ -69,7 +69,7 @@ export const Team = (props) => {
                                                     </div>
                                                     <div class="details">
                                                         <div class="name">{d.name}</div>
-                                                        <div class="job">Trainer</div>
+                                                        <div class="job">{d.designation}</div>
                                                     </div>
                                                     <div class="media-icons">
                                                       

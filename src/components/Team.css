@@ -74,7 +74,7 @@
     font-weight: 500;
   }
   .card .content .job{
-    font-size: 20px;
+    font-size: 16px;
     color: #FF676D;
   }
   .card .content .media-icons{
@@ -140,6 +140,7 @@
   .team{
     display: flex;
     justify-content: center;
+    padding: 70px 0px;
   }
 
  
@@ -170,4 +171,17 @@
     .team-title {
         width: 100%;
     }
+}
+
+.team-title h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  
+}
+
+.team-title h2 span{
+    color: #F24259;
 }
