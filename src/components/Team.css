@@ -8,10 +8,7 @@
     background: #f2f2f2;
     position: relative;
   } */
-::selection{
-    background:	#FF676D;
-    color: #fff;
-  }
+
   .team-container{
     max-width: 950px;
     width: 100%;

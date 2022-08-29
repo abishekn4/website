@@ -32,38 +32,17 @@ export const About = (props) => {
                 <p>We have been training and placing students over a decade now in various training institutes,
                    we are the pioneers who introduced different training models which not only focus on theory but on practical implementations.</p>
                    <p>We focus on providing quality training on cutting edge technologies that are used to build softwares in the current world.</p>
-                <div className="row">
-                    <div className="col-md-6">
-                        <h4>
-                        <FontAwesomeIcon icon={faStar} /> Learn best skills </h4>
-                    </div>
-                    <div className="col-md-6">
-                        <h4>
-                        <FontAwesomeIcon icon={faStar} />  Learn from Best trainers</h4>
-                    </div>
-                    <div className="col-md-6">
-                        <h4>
-                        <FontAwesomeIcon icon={faStar} />  Fun learning</h4>
-                    </div>
-                    <div className="col-md-6">
-                        <h4>
-                        <FontAwesomeIcon icon={faStar} />  Placement support</h4>
-                    </div>
-                    <div className="col-md-6">
-                        <h4>
-                        <FontAwesomeIcon icon={faStar} />  Good environment</h4>
-                    </div>
-                    <div className="col-md-6">
-                        <h4>
-                        <FontAwesomeIcon icon={faStar} />  Dream Job</h4>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>
 </section>
     
       <div className="header">
+      <div className="heading text-center">
+            <h2>Why
+                <span> Xworkz?</span></h2>
+                </div>
         
       </div>
       <div className="row1-container">
@@ -94,6 +73,8 @@ export const About = (props) => {
       </div>
       <div className='team-component'>
       <Team value={props.value.Components[1]}/>
+      
+
       </div>
 
     </div>

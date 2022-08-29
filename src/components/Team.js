@@ -70,6 +70,7 @@ export const Team = (props) => {
                                                     <div class="details">
                                                         <div class="name">{d.name}</div>
                                                         <div class="job">{d.designation}</div>
+
                                                     </div>
                                                     <div class="media-icons">
                                                       
@@ -80,7 +81,7 @@ export const Team = (props) => {
                                     </div>
                                 </div>
 
-
+                            
                             </SwiperSlide>
 
 

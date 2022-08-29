@@ -20,7 +20,7 @@
 }
 
 .App-header {
-  background-color: hsl(0, 0%, 98%);
+  background-color: #FFF;
   min-height: 100vh;
   
   justify-content: center;
@@ -42,7 +42,7 @@
 }
 
 .nav-container{
-  background-color: #dededf
+  background-color: #FBFBFB
 }
 
 .about-container{
