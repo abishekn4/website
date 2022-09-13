@@ -2,9 +2,9 @@ import React from 'react'
 
 import "./Abt.css"
 import { Team } from './Team'
+import Accordion from 'react-bootstrap/Accordion';
+import Messenger from './Widgets/Messenger';
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 
 
@@ -37,14 +37,7 @@ export const About = (props) => {
         </div>
     </div>
 </section>
-    
-      <div className="header">
-      <div className="heading text-center">
-            <h2>Why
-                <span> Xworkz?</span></h2>
-                </div>
-        
-      </div>
+
       <div className="row1-container">
         <div className="box box-down cyan">
           <h2>Student Guidance</h2>
@@ -71,10 +64,14 @@ export const About = (props) => {
           <img src="https://assets.codepen.io/2301174/icon-karma.svg" alt="" />
         </div>
       </div>
+         
+     
+    
+     
       <div className='team-component'>
-      <Team value={props.value.Components[1]}/>
+      <Messenger />      
       
-
+      <Team value={props.value.Components[1]}/>
       </div>
 
     </div>

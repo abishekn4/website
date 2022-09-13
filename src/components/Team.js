@@ -67,7 +67,7 @@ export const Team = (props) => {
                                                     <div class="img">
                                                         <img src={d.imgSrc} alt="" />
                                                     </div>
-                                                    <div class="details">
+                                                   <div class="details">
                                                         <div class="name">{d.name}</div>
                                                         <div class="job">{d.designation}</div>
 

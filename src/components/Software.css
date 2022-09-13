@@ -1,15 +1,25 @@
 
+
+
+  .software-page{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
   
   .software {
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-family: Inter;
+    
     font-style: normal;
     background-color: #F8F9FC;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    width: 85%;
   }
   
 
@@ -22,7 +32,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 320px;
+    height: 260px;
     border: 1px solid #F2F1F5;
     border-radius: 8px;
     padding: 32px 48px;
@@ -30,28 +40,24 @@
     box-shadow: 0px 8px 16px -4px rgba(41, 48, 86, 0.2);
     transform: scale(1) translateY(16px);
     transition: all 0.4s cubic-bezier(0.56, 0.01, 0, 0.99);
+    margin: 15px
+
   }
   .card:hover {
     transform: scale(1.03);
     box-shadow: 0px 10px 16px -9px rgba(41, 48, 86, 0.6);
   }
-  .card:hover .chip {
-    background-color: #3C4CC7;
-    color: #F8F9FC;
-    transition: all 0.4s cubic-bezier(0.56, 0.01, 0, 0.99) 0.075s;
-  }
-  .card:hover .chip svg > path {
-    fill: #FFFFFF;
-  }
+
   .card:hover h1 {
     color: #F8F9FC;
   }
   .card:hover button {
-    background-color: #477EF9;
+    background-color: #FF014F;
     color: #F8F9FC;
   }
   .card:hover .accent-line {
     transform: translateY(0%);
+    z-index: -1;
   }
   .card .chip {
     display: flex;
@@ -60,7 +66,7 @@
     max-width: fit-content;
     padding: 8px 12px;
     font-weight: 450;
-    color: #477EF9;
+    color: #FF014F;
     gap: 8px;
     background-color: #E8EFFF;
     border-radius: 4px;
@@ -68,12 +74,12 @@
     transition: all 0.4s cubic-bezier(0.56, 0.01, 0, 0.99);
   }
   .card .chip svg > path {
-    fill: #477EF9;
+    fill: #FF014F;
     transition: all 0.4s cubic-bezier(0.56, 0.01, 0, 0.99) 0.075s;
   }
   .card h1 {
-    font-weight: 700;
-    font-size: 40px;
+    font-weight: 400;
+    font-size: 25px;
     color: #293056;
     z-index: 1;
     transition: all 0.4s cubic-bezier(0.56, 0.01, 0, 0.99) 0.025s;
@@ -88,14 +94,15 @@
     font-size: 14px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    z-index: 1;
+    z-index: 2;
     transition: all 0.2s cubic-bezier(0.56, 0.01, 0, 0.99);
     cursor: pointer;
   }
   .card button:hover {
-    background-color: #3C4CC7;
-    border: 2px solid #3C4CC7;
+    background-color: #ac0638;
+    border: 2px solid #FF014F;
   }
+ 
   .card .accent-line {
     position: absolute;
     left: 0;
@@ -103,7 +110,7 @@
     top: 0;
     bottom: 0;
     height: 101%;
-    background-color: #477EF9;
+    background-color: #FF014F;
     transform: translateY(97%);
     z-index: 0;
     transition: all 0.3s cubic-bezier(0.56, 0.01, 0, 0.99);

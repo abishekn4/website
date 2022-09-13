@@ -198,7 +198,8 @@
   .img-fluid {
     max-width: 100%;
     height: auto;
-    width: 450px;
+    width: 500px;
+    border-radius: 10px;
 }
 
   

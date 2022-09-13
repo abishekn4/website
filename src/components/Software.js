@@ -1,38 +1,53 @@
 import React from 'react'
 import "./Software.css"
+import {Link} from 'react-router-dom'
 
 
 const Software = (props) => {
+    
     return (
+        <div className='software-page'>
         <div className='software col-12'>
+
+
 
             {props.value.Softwares
                 ? props.value.Softwares.map((d, i) => (
-                    <div key={`${d.name}-${i}`} >
-                        <div class="card ">
+                  
+                        
+                        <div class="card"> 
 
                             <h1>{d.name}</h1>
 
-                            <button>Download</button>
+                            {/* <a href={d.directLink}> */}
+                                <button type="button">Download</button>
+                            {/* </a> */}
+                            
+                            
 
-                            <button>Other Versions</button>
-
-
-
+                           <a href={d.extranalLink}>
+                                <button type="button">Other Versions</button>
+                                </a>
                             <div class="accent-line"></div>
                         </div>
 
+                        
 
 
 
-                    </div>
+
+                    
+                    
 
 
                 ))
                 : 'loading'}
 
+                
 
 
+
+        </div>
         </div>
 
 
