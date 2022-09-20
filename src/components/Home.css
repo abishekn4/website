@@ -1,7 +1,7 @@
 
 .row{
   justify-content: space-between;
-  margin-top: 80px;
+  margin-top: 20px;
   flex-direction: row;
 }
 .hero {
@@ -213,6 +213,15 @@ background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
   width:100%;
   transition:800ms ease all;
 }
+._1qse9 {
+ 
+  z-index: 10;
+}
+
+._2qp0Z {
+  z-index: 10;
+}
+
 
 
 

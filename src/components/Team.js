@@ -1,12 +1,17 @@
 import React from 'react'
 import "./Team.css"
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Scrollbar, A11y, FreeMode } from "swiper";
+import { Navigation, Scrollbar, A11y, FreeMode, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { Button, Modal } from 'semantic-ui-react'
+
+
 
 export const Team = (props) => {
+
+
 
     return (
 
@@ -17,9 +22,11 @@ export const Team = (props) => {
 
                 <Swiper
                     // install Swiper modules
-                    modules={[Navigation, Scrollbar, A11y, FreeMode]}
+                    modules={[Navigation ,Scrollbar, A11y, FreeMode, Autoplay]}
                     freeMode={true}
-                    grabCursor={true}
+                    autoplay={true}
+
+
                     breakpoints={{
                         0: {
                             slidesPerView: 1,
@@ -45,11 +52,11 @@ export const Team = (props) => {
 
                     }
                     }
-                    navigation
+
 
                     scrollbar={{ draggable: true }}
                     onSwiper={(swiper) => console.log(swiper)}
-
+                    navigation
                 >
 
                     {props.value.content
@@ -67,13 +74,22 @@ export const Team = (props) => {
                                                     <div class="img">
                                                         <img src={d.imgSrc} alt="" />
                                                     </div>
-                                                   <div class="details">
+                                                    <div class="details">
                                                         <div class="name">{d.name}</div>
                                                         <div class="job">{d.designation}</div>
 
                                                     </div>
-                                                    <div class="media-icons">
-                                                      
+                                                    <div class="">
+
+
+                                                        <Modal
+                                                            trigger={<Button>Read More </Button>}
+                                                            header='Reminder!'
+                                                            content='Call Benjamin regarding the reports.'
+                                                            actions={['Snooze', { key: 'done', content: 'Done', positive: true }]}
+                                                        />
+
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -81,7 +97,7 @@ export const Team = (props) => {
                                     </div>
                                 </div>
 
-                            
+
                             </SwiperSlide>
 
 

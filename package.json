@@ -1,12 +1,15 @@
 {
-  "homepage": "http://abishekn4.github.io/home",
+  "homepage": "http://abishekn4.github.io",
   "name": "xworkz-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
     "@fortawesome/free-solid-svg-icons": "^6.1.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/material": "^5.10.5",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
@@ -21,6 +24,8 @@
     "react-scripts": "5.0.1",
     "react-simple-typewriter": "^3.0.1",
     "react-whatsapp-widget": "^2.1.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.1.3",
     "swiper": "^8.3.1",
     "typewriter-effect": "^2.19.0",
     "web-vitals": "^2.1.4"

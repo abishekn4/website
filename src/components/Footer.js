@@ -8,31 +8,13 @@ function Footer() {
             <div class="footer-cta pt-5 pb-5">
                 <div class="row">
                     <div class="col-xl-4 col-md-4 mb-30">
-                        <div class="single-cta">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div class="cta-text">
-                                <h4>Find us</h4>
-                                <span>Basement, No. 17/10/28, Dr Rajkumar Rd, 3rd Stage 4th Block, Rajaji Nagar, Bengaluru, Karnataka 560021</span>
-                            </div>
-                        </div>
+                       
                     </div>
                     <div class="col-xl-4 col-md-4 mb-30">
-                        <div class="single-cta">
-                            <i class="fas fa-phone"></i>
-                            <div class="cta-text">
-                                <h4>Call us</h4>
-                                <span>9886971480</span>
-                            </div>
-                        </div>
+                        
                     </div>
                     <div class="col-xl-4 col-md-4 mb-30">
-                        <div class="single-cta">
-                            <i class="far fa-envelope-open"></i>
-                            <div class="cta-text">
-                                <h4>Mail us</h4>
-                                <span>contact@x-workz.in</span>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -54,17 +36,28 @@ function Footer() {
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                         <div class="footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>Useful Links</h3>
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>9886971480</span>
                             </div>
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Softwares</a></li>
-                                <li><a href="#">Courses</a></li>
-                                <li><a href="#">Contact</a></li>
-                                
-                            </ul>
+                        </div>
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>contact@x-workz.in</span>
+                            </div>
+                        </div>
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>Basement, No. 17/10/28, Dr Rajkumar Rd, 3rd Stage 4th Block, Rajaji Nagar, Bengaluru, Karnataka 560021</span>
+                            </div>
+                        </div>
+                            
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
@@ -97,8 +90,8 @@ function Footer() {
                     <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
                         <div class="footer-menu">
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Terms</a></li>
+                                <li><a href="/home">Home</a></li>
+                                <li><a href="/about">about</a></li>
                                 <li><a href="#">Privacy</a></li>
                                 <li><a href="#">Policy</a></li>
                                 <li><a href="#">Contact</a></li>

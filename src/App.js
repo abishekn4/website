@@ -48,7 +48,7 @@ const App = () => {
       </Container>
     </Navbar> */}
     <Routes>
-   
+
     
     <Route path="/about" element={<About value={JsonData}/>}/>
     <Route path="/" element={<Home  value={JsonData}/>}/>
@@ -63,7 +63,7 @@ const App = () => {
 </Router>
 
 
-      </div>
+        </div>
     
 
   <Footer />
