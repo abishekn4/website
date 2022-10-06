@@ -27,7 +27,7 @@ export const About = (props) => {
             <div className="col-lg-6">
                 <img src="https://raw.githubusercontent.com/xworkzodc/Gallery/master/images/56.jpeg" alt="about" className="img-fluid" width="50%" />
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 about-info">
                 <h3>Enterprise Application Expertise Team</h3>
                 <p>We have been training and placing students over a decade now in various training institutes,
                    we are the pioneers who introduced different training models which not only focus on theory but on practical implementations.</p>

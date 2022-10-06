@@ -76,6 +76,15 @@ function NavBar() {
               Courses
             </Link>
           </li>
+          <li className='nav-item'>
+            <Link
+              to='/directions'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Directions
+            </Link>
+          </li>
           
         </ul>
         

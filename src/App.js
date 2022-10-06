@@ -17,6 +17,7 @@ import Software from './components/Software';
 import Courses from './components/Courses';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import Directions from './components/Directions';
   
 const App = () => {
   const [data, setData] = useState({});
@@ -54,6 +55,7 @@ const App = () => {
     <Route path="/" element={<Home  value={JsonData}/>}/>
     <Route path="/softwares" element={<Software value={SoftwareData}   />}/>
     <Route path="/courses" element={<Courses />}/>
+    <Route path="/directions" element={<Directions />}/>
     
     
   </Routes>

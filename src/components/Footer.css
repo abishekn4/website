@@ -17,7 +17,7 @@ ul {
 }
 .cta-text {
   padding-left: 15px;
-  display: inline-block;
+  margin: 30px;
 }
 .cta-text h4 {
   color: #fff;
@@ -43,6 +43,7 @@ ul {
 }
 .footer-logo {
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 .footer-logo img {
     float: inherit;
@@ -52,7 +53,7 @@ ul {
 .footer-text p {
   margin-bottom: 14px;
   font-size: 14px;
-      color: #7e7e7e;
+  color: #7e7e7e;
   line-height: 28px;
 }
 .footer-social-icon span {
@@ -159,4 +160,8 @@ ul {
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
+}
+.row{
+  justify-content: center;
+  padding: 0;
 }

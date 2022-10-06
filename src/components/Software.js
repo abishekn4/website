@@ -19,9 +19,9 @@ const Software = (props) => {
 
                             <h1>{d.name}</h1>
 
-                            {/* <a href={d.directLink}> */}
+                            <a href={d.directLink}>
                                 <button type="button">Download</button>
-                            {/* </a> */}
+                            </a>
                             
                             
 

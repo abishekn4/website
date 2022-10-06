@@ -81,7 +81,7 @@
 }
 
 .skill-icon {
-    width: 70px;
+    width: 62px;
     z-index: 2;
 }
 
@@ -99,8 +99,9 @@
 
     .skill-container{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3,1fr);
         padding: 2rem 50px;
+        column-gap: 0;
     }
     
 }

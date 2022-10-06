@@ -1,9 +1,8 @@
-import React from "react";
-import { About } from "./About";
-import './About.css';
+import React from 'react'
 
-function Abt() {
-
+export default function Abt() {
+  return (
+    <div>Abt</div>
+  )
 }
 
-export default Abt;

@@ -25,7 +25,7 @@ const Home = (props) => {
         <div className='container'>
           <div className='row'>
             <img className="col-sm-12 col-lg-5" src={code} alt=" " />
-            <div className='left col-lg-7'>
+            <div className='left col-lg-5'>
 
               <h1>
                 We Are
@@ -66,7 +66,7 @@ const Home = (props) => {
       <Tech />
 
       
-      <WhatsAppWidget  open={true} companyName='Xworkz ODC' phoneNumber="+919514726209" />
+      <WhatsAppWidget  open={true} companyName='Xworkz ODC'  phoneNumber="+919514726209sleep" />
       <div>
         <section className="about" id="about">
           <div className="container">
@@ -90,8 +90,8 @@ const Home = (props) => {
             </div>
           </div>
         </section>
-        <Accordion defaultActiveKey="0">
-          <Accordion.Item eventKey="0">
+        <Accordion >
+          <Accordion.Item >
             <Accordion.Header>
               Why Xworkz
             </Accordion.Header>
@@ -119,7 +119,7 @@ const Home = (props) => {
               <div className="row2-container">
                 <div className="box orange">
                   <h2>Landing Dream Job</h2>
-                  <p>Get into your dream job with all the skilset needed </p>
+                  <p>Get into your dream job with all the skilset needed    </p>
                   <img src="https://assets.codepen.io/2301174/icon-karma.svg" alt="" />
                 </div>
               </div>

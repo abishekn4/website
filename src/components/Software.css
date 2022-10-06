@@ -52,7 +52,7 @@
     color: #F8F9FC;
   }
   .card:hover button {
-    background-color: #FF014F;
+    background-color: #2A265F;
     color: #F8F9FC;
   }
   .card:hover .accent-line {
@@ -66,7 +66,7 @@
     max-width: fit-content;
     padding: 8px 12px;
     font-weight: 450;
-    color: #FF014F;
+    color: #2A265F;
     gap: 8px;
     background-color: #E8EFFF;
     border-radius: 4px;
@@ -74,7 +74,7 @@
     transition: all 0.4s cubic-bezier(0.56, 0.01, 0, 0.99);
   }
   .card .chip svg > path {
-    fill: #FF014F;
+    fill: #2A265F;
     transition: all 0.4s cubic-bezier(0.56, 0.01, 0, 0.99) 0.075s;
   }
   .card h1 {
@@ -86,8 +86,8 @@
   }
   .card button {
     padding: 16px 40px;
-    color: #44caab;
-    background-color: #FFFFFF;
+    color: #F2F1F5;
+    background-color: #2A265F;
     border: 2px solid #F2F1F5;
     border-radius: 50px;
     font-weight: 700;
@@ -99,8 +99,8 @@
     cursor: pointer;
   }
   .card button:hover {
-    background-color: #ac0638;
-    border: 2px solid #FF014F;
+    background-color: #4d4894;
+    border: 2px solid #2A265F;
   }
  
   .card .accent-line {
@@ -110,7 +110,7 @@
     top: 0;
     bottom: 0;
     height: 101%;
-    background-color: #FF014F;
+    background-color: #2A265F;
     transform: translateY(97%);
     z-index: 0;
     transition: all 0.3s cubic-bezier(0.56, 0.01, 0, 0.99);
@@ -118,7 +118,7 @@
   
   .link-text {
     
-    color: #753BBD;
+    color: #2A265F;
     font-size: 1.125em;
     font-weight: 600;
     line-height: 1.2;
