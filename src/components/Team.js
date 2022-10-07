@@ -79,18 +79,7 @@ export const Team = (props) => {
                                                         <div class="job">{d.designation}</div>
 
                                                     </div>
-                                                    <div class="">
-
-
-                                                        <Modal
-                                                            trigger={<Button>Read More </Button>}
-                                                            header='Reminder!'
-                                                            content='Call Benjamin regarding the reports.'
-                                                            actions={['Snooze', { key: 'done', content: 'Done', positive: true }]}
-                                                        />
-
-
-                                                    </div>
+                                                   
                                                 </div>
                                             </div>
                                         </div>

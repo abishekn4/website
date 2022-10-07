@@ -1,22 +1,5 @@
-{
-    "Batches": [
-    {
-     "Upcoming": [
-        
-     ]
-   },
-   {
-     "Ongoing": [
-        {
-         "courseName": "Core Java",
-         "startDate": "16-MAY-2022",
-         "time": "08:30 AM",
-         "type": "WeekDay Offline Ongoing",
-         "facultyName": "Devendra",
-         "placed": 0
-       }
-     ]
-   },
+
+
    {
      "Completed": [
        {
@@ -965,6 +948,5 @@
        }
      ]
    }
- ]
-}
+ 
         

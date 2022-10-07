@@ -28,7 +28,7 @@ font-weight: 300;
 
 
 /* Contact Form Styling */
-.container {
+.map-container {
 padding: 0 50px 70px;
 }
 .textcenter {
@@ -52,8 +52,9 @@ margin: 20px;
 
 .section1 h1 {
 font-size: 40px;
-color: #A44DD8;
+color: #2A265F;
 font-weight: normal;
+margin-top: 15px;
 }
 
 .section2 {
@@ -102,7 +103,7 @@ resize:none;
 padding: 15px 40px;
   color: #fff;
   border: 0;
-  background: #A44DD8;
+  background: #2A265F;
   font-size: 16px;
   text-transform: uppercase;
   margin: 7px 0;
@@ -114,7 +115,7 @@ font-weight: normal;
   margin-top: 30px;
   border-bottom: 1px solid #ddd;
   padding-bottom: 19px;
-  color: #A44DD8;
+  color: #2A265F;
 }
 
 /* @media querries */
@@ -125,7 +126,7 @@ font-weight: normal;
 }
 }
 @media only screen and (max-width: 960px) {
-.container {
+.map-container {
   padding: 0 30px 70px;
 }
 .section2 .col2 {
@@ -157,14 +158,20 @@ body .sec2map {
   padding: 10px 30px;
   font-size: 14px;
 }
+iframe{
+  width: 340px;
+  height: 250px;
+}
+
 }
 @media only screen and (max-width: 420px) {
 .section1 h1 {
   font-size: 28px;
 }
 
-.iframe{
+iframe{
   width: 340px;
   height: 250px;
 }
+
 }

@@ -17,6 +17,13 @@
     
 }
 
+.course-heading h1{
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 20px;
+	font-size: 35px;
+}
+
 .course {
 	background-color: #fff;
 	border-radius: 10px;

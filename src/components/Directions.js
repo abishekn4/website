@@ -3,7 +3,7 @@ import "./Directions.css"
 
 const Directions = () => {
     return (
-        <div class="container">
+        <div class="map-container">
 		<div class="innerwrap">
 		
 			<section class="section1 clearfix">

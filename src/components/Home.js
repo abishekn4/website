@@ -126,7 +126,7 @@ const Home = (props) => {
 
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="1">
+          <Accordion.Item eventKey="1" alwaysOpen={false}>
             <Accordion.Header>Team</Accordion.Header>
             <Accordion.Body>
               <Team value={props.value.Components[1]} />
